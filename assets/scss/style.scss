@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: rgb(44, 43, 43);
+    height: auto;
+}
+
+#footer {
+    border-top: solid 1px #000;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+}
+
+#footer ul li a {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: rgb(8, 34, 184);
+    }
+} 
+
+.header-content{
+    background-color: #000;
+    color: #fff;
+    padding: 18px 34px;
+    & h3{
+        font-size:20px;
+    }
+} 
+
+.product-info h2{
+    margin-top: 16px;
+    padding-right: 36px;
+    font-size: 24px;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+} 
+
+.offers{
+    display: flex;
+    position: relative;
+    padding: 16px;
+    border-radius: 6px;
+    background: #f5f7fe; 
+    margin-bottom: 10px;
+    .offer-text{
+        font-weight:700;
+
+    }
+    & img {
+        width: 70px;
+        height: auto;
+    } 
+} 
+
+.content-heading{
+    margin-bottom: 30px;
+    margin-top: 30px; 
+    & img{
+        margin-top: 30px; 
+        margin-bottom: 30px;
+    }
+
+} 
+
+ .nav-link {
+    color: rgb(0 0 0) !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: #000;
+    border-radius: 32px;
+}  
+
+.add-to-cart{
+    margin-top: 10px;
+} 
+
+.product-img-sticky{
+    top: 85px !important; 
+    z-index: -1 !important;
+} 
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
